@@ -8,4 +8,4 @@ arr = [2, 7, 11,15,16]
 
 arr.sort()
 
-ans = []
+print(arr);
