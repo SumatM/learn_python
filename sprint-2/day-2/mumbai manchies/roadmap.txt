@@ -1,0 +1,90 @@
+welcome sumat to mumbai munchaies.
+
+crud;
+
+
+current menu 
+1
+2
+3
+4
+5
+
+
+enter the sr. to update the menu ;
+
+
+-------------------
+
+
+id   name price availabity
+
+1   samosa 30   y 
+--------------------------------
+
+press 1 to add item;
+press  2 to update stock item;
+            update the availabity of snack
+press 3 to remove item;
+press 4 to exit app;
+
+
+-----------------------------------
+
+
+sold item  track 
+
+
+----------------------------------------------
+
+name = 
+
+are you staff or student;
+
+staff ; 
+
+press 1 to add item;
+press  2 to update stock item;
+            update the availabity of snack
+press 3 to remove item;
+press 4 to exit app;
+
+
+
+student ;
+
+press id of snack to buy product;
+
+how many items you want to buy;
+
+bill  
+
+----------bill ----------
+
+name - name
+your order id - 12343 random;
+item purchashed
+- samosa * 2 = 30 
+- pavbajhi * 1 = 50
+
+total ---- 80;
+
+----------------------------
+
+1 to buy more 
+
+2 to exit 
+
+// 
+
+your order will be deliver soon;
+
+
+
+
+if action == 4:
+        runProgram = False;
+
+
+
+        action = (input("Enter the valid key"))
