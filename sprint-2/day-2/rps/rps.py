@@ -23,7 +23,10 @@ PlayGame = True
 
 
 while PlayGame:
+   
     print("----------------------")
+    print('\n')
+    rounds-=1;
     userChoise  = input("Enter Your Move:-  ")
     print('\n')
     computerChoise = options[random.randint(0,2)]
@@ -63,7 +66,6 @@ while PlayGame:
     print(f"{userName}--- {userScore}")
     print(f"Computer---- {computerScore}")
     print(f"Tiematches --- {tieMatches} \n")
-    rounds-=1;
     if(rounds==0):
         quitGame = input("Do you Want to quit game : 'Y' or 'N'   ").strip()
         if(quitGame=="y" or quitGame=='Y'):
