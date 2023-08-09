@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>My APP</h1>
+        <form>
+            <input class="name" placeholder="Enter your name" type="text"/>
+            <button class="submit" type="submit">Add</button>
+        </form>
+
+        <div id="display">
+        </div>
+    </div>
+</body>
+<script>
+    let display = document.getElementById('display')
+    let button = document.getElementsByClassName('submit')[0]
+    let nameInput = document.getElementsByClassName('name')[0]
+    console.log(users);
+        button.addEventListener("click",(e)=>{
+            e.preventDefault()
+            console.log(nameInput.value);
+        })
+</script>
+</html>
