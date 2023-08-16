@@ -1,0 +1,1 @@
+{"menu": [{"id": 3, "dishName": "Chicken Briyani", "price": 20, "stock": 5}, {"id": 2, "dishName": "Burger ", "price": 225, "stock": 2}], "order": [{"menuid": 1, "customerId": "sumat121", "status": "received"}], "customer": [{"id": "sumat121", "name": "sumat Mallick"}]}

@@ -1,0 +1,20 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zesty Zomato</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Zesty Zomato</h1>
+    </header>
+
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        &copy; {{ current_year }} Zesty Zomato
+    </footer>
+</body>
+</html>

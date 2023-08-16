@@ -1,0 +1,11 @@
+
+{% extends 'menu/base.html' %}
+
+{% block content %}
+    <h2>{{ dish.dishName }}</h2>
+    <p>Price: ₹{{ dish.price|floatformat:2 }}</p>
+    <p>Availability: {% if dish.stock > 0 %}Available{% else %}Not Available{% endif %}</p>
+    <a href="{% url 'update_dish' dish.id %}">Update</a>
+    <a href="{% url 'delete_dish' dish.id %}">Delete</a>
+    <a href="{% url 'dish_list' %}">Back to Menu</a>
+{% endblock %}

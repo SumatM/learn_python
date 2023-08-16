@@ -1,0 +1,16 @@
+{% extends 'menu/base.html' %}
+
+{% block content %}
+    <h2>Update Dish: {{ dish.dish_name }}</h2>
+    <form method="post">
+        {% csrf_token %}
+        <label for="dishName">Dish Name:</label>
+        <input type="text" name="dishName" value="{{ dish.dishName }}" required readonly><br>
+        <label for="price">Price:</label>
+        <input type="number" name="price" value="{{ dish.price }}" step="0.01" required><br>
+        <label for="availability">Availability:</label>
+        <input type="number" placeholder="Enter the New Dish Quantity" name="stock" value={{dish.stock}} required><br>
+        <button type="submit">Update Dish</button>
+    </form>
+    <a href="{% url 'dish_list' %}">Back to Menu</a>
+{% endblock %}

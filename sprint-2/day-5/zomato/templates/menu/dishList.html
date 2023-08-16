@@ -1,0 +1,16 @@
+{% extends 'menu/base.html' %}
+
+{% block content %}
+    <h2>Menu</h2>
+    <ul>
+        {% for dish in dishes %}
+            <li>
+                {{ dish.dishName }} - ${{ dish.price|floatformat:2 }}
+                <a href="{% url 'dish_detail' dish.id %}">Detail</a>
+                <a href="{% url 'update_dish' dish.id %}">Update</a>
+                <a href="{% url 'delete_dish' dish.id %}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'add_dish' %}">Add a New Dish</a>
+{% endblock %}
