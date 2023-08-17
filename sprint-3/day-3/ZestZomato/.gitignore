@@ -1,0 +1,65 @@
+env
+
+.env
+
+# Ignore database files
+db.sqlite3
+
+# Ignore environment configuration
+.env
+settings/local_settings.py
+
+# Ignore static and media files
+staticfiles/
+media/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+env/
+.venv/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.pydevproject
+*.pycproject
+*.project
+*.settings
+
+# Ignore log and debug files
+*.log
+/log/
+/logs/
+/tmp/
+/temp/
+*.bak
+
+# Ignore dependencies
+/node_modules/
+/bower_components/
+/yarn.lock
+
+# Ignore compiled assets
+/assets/
+/dist/
+
+# Ignore compiled or transpiled files
+*.js
+*.css
+*.min.js
+
+# Ignore sensitive data (modify as needed)
+*.key
+*.pem
+secrets.json
+
+# Ignore migration files if you're not using them for MongoDB
+# (uncomment if applicable)
+# */migrations/
+
+# Ignore any other files or directories specific to your project
