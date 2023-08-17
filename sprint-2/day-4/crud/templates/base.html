@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Todo List{% endblock %}</title>
+</head>
+<body>
+    <h1>{% block heading %}Todo List{% endblock %}</h1>
+    <div>
+        {% block content %}{% endblock %}
+    </div>
+    <div>
+        <a href="{% url 'read' %}">Task List</a>
+        <a href="{% url 'create' %}">Create Task</a>
+    </div>
+</body>
+</html>

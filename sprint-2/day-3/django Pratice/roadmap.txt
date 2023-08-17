@@ -1,0 +1,61 @@
+1. Introduction to Django:
+
+What is Django and why use it?
+Setting up your development environment (Python, Django, IDE).
+2. Django Basics:
+
+Project vs. App structure.
+Creating a new Django project and app.
+Running the development server.
+3. Models and Databases:
+
+What are models and why are they important?
+Defining models using Python classes.
+Creating database tables and migrating.
+4. Admin Panel:
+
+Setting up the Django admin panel.
+Registering models in the admin panel.
+Customizing the admin interface.
+5. Views and Templates:
+
+Understanding views and URLs.
+Creating views and connecting them to URLs.
+Working with templates and the Django template language.
+6. URL Patterns and Routing:
+
+URL routing and patterns.
+Capturing variables from URLs.
+Using regular expressions in URL patterns.
+7. Forms and Validation:
+
+Building and handling HTML forms.
+Form validation and error handling.
+Using Django's form handling.
+8. Static and Media Files:
+
+Managing static files (CSS, JavaScript, images).
+Uploading and serving user-uploaded media files.
+9. User Authentication and Permissions:
+
+Implementing user registration and login.
+Managing user sessions and authentication.
+User permissions and access control.
+10. Django ORM (Object-Relational Mapping):
+- Understanding the Django ORM.
+- Querying the database using the ORM.
+- Aggregations, filters, and annotations.
+
+11. Working with APIs:
+- Building APIs using Django Rest Framework.
+- Consuming external APIs in your Django app.
+
+12. Testing and Debugging:
+- Writing unit tests for your Django app.
+- Using the Django test framework.
+- Debugging techniques and tools.
+
+13. Deployment and Hosting:
+- Preparing your Django app for production.
+- Deploying to web hosting platforms (e.g., Heroku, AWS, etc.).
+- Setting up a production environment.

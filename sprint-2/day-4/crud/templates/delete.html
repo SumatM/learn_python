@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block heading %}Update Task{% endblock %}
+
+{% block content %}
+{% if task %}
+<p>{{ task.title }}</p>
+<p>Completion Status: {% if task.completed %}Completed{% else %}Pending{% endif %}</p>
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Remove Task</button>
+</form>
+<a href="{% url 'read' %}">Back to Task List</a>
+{% else %}
+<p>Task Removed.</p>
+<a href="{% url 'read' %}">Back to Task List</a>
+{% endif %}
+{% endblock %}

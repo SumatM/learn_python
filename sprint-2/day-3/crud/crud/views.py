@@ -1,10 +1,9 @@
 from django.http import HttpResponse;
 from django.shortcuts import render;
-import store;
+
 
 def index(request):
-   list = store.getUser()
-   return render(request,'index.html',{"users":list})
+   return render(request,'index.html')
 
 def read(request):
     return HttpResponse('<h1>Welcome!! Sumat </h1>')
